@@ -34,8 +34,9 @@ const Project = () => {
                 />
               </a>
 
-              <h6 style={{ color: "#4D5055",marginTop:"1%"  }}>
-                <b className="text-dark">Project : </b> Website for Media Portal using HTML.
+              <h6 style={{ color: "#4D5055", marginTop: "1%" }}>
+                <b className="text-dark">Project : </b> Website for Media Portal
+                using HTML.
               </h6>
             </div>
             {/* CSS Project */}
@@ -51,13 +52,17 @@ const Project = () => {
                   alt=""
                 />
               </a>
-              <h6 style={{ color: "#4D5055",marginTop:"1%"  }}>
-                <b className="text-dark">Project : </b> Website for Online Electronics Products Purchasing site using CSS.
+              <h6 style={{ color: "#4D5055", marginTop: "1%" }}>
+                <b className="text-dark">Project : </b> Website for Online
+                Electronics Products Purchasing site using CSS.
               </h6>
             </div>
             {/* Bootstrap Project */}
             <div className="col-12 py-5 m-0 img1">
-              <a href="https://prachicloudinfotech.netlify.app/" className="text-decoration-none">
+              <a
+                href="https://prachicloudinfotech.netlify.app/"
+                className="text-decoration-none"
+              >
                 <img
                   src="Image/sailor.jpeg"
                   height="100%"
@@ -65,17 +70,21 @@ const Project = () => {
                   alt=""
                 />
               </a>
-              <h6 style={{ color: "#4D5055",marginTop:"1%"  }}>
+              <h6 style={{ color: "#4D5055", marginTop: "1%" }}>
                 <b className="text-dark">Project : </b> Website using Bootstrap.
               </h6>
             </div>
             {/* React Project */}
             <div className="col-12 py-5 m-0 img1">
-              <a href="https://redbytes.netlify.app/" className="text-decoration-none">
+              <a
+                href="https://redbytes.netlify.app/"
+                className="text-decoration-none"
+              >
                 <img src="Image/react.jpeg" height="100%" width="100%" alt="" />
               </a>
-              <h6 style={{ color: "#4D5055",marginTop:"1%" }}>
-                <b className="text-dark">Project : </b> Website for Mobile Application Development Company using React.
+              <h6 style={{ color: "#4D5055", marginTop: "1%" }}>
+                <b className="text-dark">Project : </b> Website for Mobile
+                Application Development Company using React.
               </h6>
             </div>
           </div>
@@ -86,13 +95,20 @@ const Project = () => {
 
       <div className="row m-0 p-5">
         <div className="col-12 m-0 p-0 text-center">
-          <h4 className="text-dark text-center fw-bold my-3">Discover More Project on Github</h4>
+          <h4 className="text-dark text-center fw-bold my-3">
+            Discover More Project on Github
+          </h4>
           <button
-            className="btn btn-primary px-5 py-2"
-            style={{ borderRadius: "50px"}}
+            className="btn btn-dark px-5 py-2"
+            style={{ borderRadius: "50px" }}
           >
             {" "}
-            <a href="https://github.com/PrachiKarle"></a>GITHUB
+            <a
+              href="https://github.com/PrachiKarle"
+              className="text-decoration-none text-light"
+            >
+              Discover
+            </a>
           </button>
         </div>
       </div>

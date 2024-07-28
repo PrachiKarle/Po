@@ -29,7 +29,7 @@ const Contact = () => {
                 </div>
 
                 <div className="form-group my-4 text-center">
-                    <button className="btn btn-primary px-5 py-2 " style={{borderRadius:"50px"}}>Submit</button>
+                    <button className="btn btn-dark px-5 py-2 " style={{borderRadius:"50px"}}>Submit</button>
                 </div>
             </form>
         </div>
